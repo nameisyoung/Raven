@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "400880730232",
+    "firebase_url": "https://raven-5b31e.firebaseio.com",
+    "project_id": "raven-5b31e",
+    "storage_bucket": "raven-5b31e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400880730232:android:a2bcc9ad071decf8",
+        "android_client_info": {
+          "package_name": "com.firebaseapp.raven_5b31e.raven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400880730232-1u94a5r3mc8s7tn9v3vb5rkhp6ahfs0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM_5wNf2beuk68AOKaLZeJDIRNeB3h5ug"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
