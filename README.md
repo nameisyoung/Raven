@@ -4,7 +4,7 @@ Location-based Content Sharing Network
 
 ## Installation
 
-Go to "https://play.google.com/store/apps" and search "Raven"!
+NOT SUPPORT YET. ~~Go to "https://play.google.com/store/apps" and search "Raven"!~~ 
 
 ## Usage
 
@@ -27,7 +27,7 @@ Designing: Photohop CC and Illustator CC
 ## History
 
 * 0.0.1
-  * 2016-09-22: Work in progress
+  * 2016-09-21: Work in progress
 
 ## Credits
 
