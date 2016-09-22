@@ -15,7 +15,7 @@ NOT SUPPORTS YET. ~~Go to "https://play.google.com/store/apps" and search "Raven
 #### Works on
 * Android 4.4 (Kitkat)or higher
 
-#### Does not work on
+~~#### Does not work on~~
 
 
 
