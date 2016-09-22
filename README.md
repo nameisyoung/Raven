@@ -15,18 +15,22 @@ NOT SUPPORTS YET. ~~Go to "https://play.google.com/store/apps" and search "Raven
 
 ## Development setup (Contributing)
 
-IDE: Android Studio 2.2
- (https://developer.android.com/studio/index.html)
+#### IDE
+* [Android Studio 2.2](https://developer.android.com/studio/index.html)
+* [Java SE 8u101](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+ 
+#### APIs
+* Firebase > [Console](https://console.firebase.google.com)
+* Google Maps APIs > Android > [Maps Android API](https://developers.google.com/maps/documentation/android-api)
 
-Language: Java 8u101
+#### Collaboration
+* [Google Drive](https://drive.google.com)
+* [Google Hangouts](https://hangouts.google.com)
+* [GitHub](https://github.com/nameisyoung/Raven)
 
-Android minimum requirement: Android 4.4 KitKat
-
-API: Firebase(Database) and Google Maps (GIS)
-
-Collaboration: Google Drive, Google Hangouts, and GitHub
-
-Designing: Photohop CC and Illustator CC
+#### Design
+* [Photoshop](https://www.adobe.com/products/photoshop.html)
+* [Illustator](https://www.adobe.com/products/illustrator.html)
 
 ## Version
 
