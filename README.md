@@ -46,7 +46,7 @@ NOT SUPPORTS YET. ~~Go to "https://play.google.com/store/apps" and search "Raven
       * Download the google-services-json file and move it into the app folder of your project in Android Studio.
     * Add the SDK
       * In root-level build.gradle file, add these rules:
-      ```
+      ```Java
      buildscript {
                  // ...
                  dependencies {
@@ -56,7 +56,7 @@ NOT SUPPORTS YET. ~~Go to "https://play.google.com/store/apps" and search "Raven
       }
       ```
         * In app/build.gradle, add these rules:
-        ```
+        ```Java
         dependencies {
                  compile 'com.google.firebase:firebase-core:9.4.0'
                  compile 'com.google.firebase:firebase-database:9.4.0'
@@ -68,6 +68,37 @@ NOT SUPPORTS YET. ~~Go to "https://play.google.com/store/apps" and search "Raven
         ```
     * References: https://firebase.google.com/docs/android/setup
 * Google Maps APIs > Android > [Maps Android API](https://developers.google.com/maps/documentation/android-api)
+  * Example Code: Custom Markers and Info windows
+    * References: https://developers.google.com/maps/documentation/android-api/
+      ```Java
+      import com.google.android.gms.maps.*;
+      import com.google.android.gms.maps.model.*;
+      import android.app.Activity;
+      import android.os.Bundle;
+      
+      public class MapPane extends Activity implements OnMapReadyCallback {
+          @Override
+          protected void onCreate(Bundle savedInstanceState) {
+              super.onCreate(savedInstanceState);
+              setContentView(R.layout.map_activity);
+              MapFragment mapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.map);
+              mapFragment.getMapAsync(this);
+          }
+          
+          @Override
+          public void onMapReady(GoogleMap map) {
+              map.moveCamera(CameraUpdateFactory.newLatLngZoom(
+                      new LatLng(41.889, -87.622), 16));
+      
+              // You can customize the marker image using images bundled with
+              // your app, or dynamically generated bitmaps.
+              map.addMarker(new MarkerOptions()
+                      .icon(BitmapDescriptorFactory.fromResource(R.drawable.house_flag))
+                      .anchor(0.0f, 1.0f) // Anchors the marker on the bottom left
+                      .position(new LatLng(41.889, -87.622)));
+          }
+      }
+      ```
 
 #### Collaboration
 * [Google Drive](https://drive.google.com)
