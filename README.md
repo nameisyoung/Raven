@@ -2,9 +2,13 @@
 
 Location-based Content Sharing Network
 
+
+
 ## App Stores
 
 NOT SUPPORTS YET. ~~Go to "https://play.google.com/store/apps" and search "Raven"!~~ 
+
+
 
 ## Tests
 
@@ -12,6 +16,8 @@ NOT SUPPORTS YET. ~~Go to "https://play.google.com/store/apps" and search "Raven
 * Android 4.4 (Kitkat)or higher
 
 #### Does not work on
+
+
 
 ## Development setup (Contributing)
 
@@ -32,10 +38,14 @@ NOT SUPPORTS YET. ~~Go to "https://play.google.com/store/apps" and search "Raven
 * [Photoshop](https://www.adobe.com/products/photoshop.html)
 * [Illustator](https://www.adobe.com/products/illustrator.html)
 
+
+
 ## Version
 
 * 0.0.1
   * 2016-09-21: Work in progress
+
+
 
 ## Credits
 
@@ -43,6 +53,10 @@ NOT SUPPORTS YET. ~~Go to "https://play.google.com/store/apps" and search "Raven
 * Bhargava Ramisetty
 * Lindsey Zylstra
 
+
+
 ## License
+
+
 
 ## Contact
