@@ -1,10 +1,16 @@
 # Raven
+
 Location-based Content Sharing Network
 
+## Installation
 
-By: Younggun Chung, Bhargava Ramisetty, Lindsey Zylstra
+Go to "https://play.google.com/store/apps" and search "Raven"!
 
+## Usage
 
+Social Network Service
+
+## Development setup (Contributing)
 
 IDE: Android Studio 2.2
 
@@ -17,4 +23,16 @@ API: Firebase(Database) and Google Maps (GIS)
 Collaboration: Google Drive, Google Hangouts, and GitHub
 
 Designing: Photohop CC and Illustator CC
+
+## History
+
+* 0.0.1
+  * 2016-09-22: Work in progress
+
+## Credits
+
+Younggun Chung, Bhargava Ramisetty, Lindsey Zylstra
+
+## License
+
 
