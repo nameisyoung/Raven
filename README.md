@@ -121,9 +121,9 @@ NOT SUPPORTS YET. ~~Go to "https://play.google.com/store/apps" and search "Raven
 ## Credits
 
 * Younggun Chung
+* Thanh Quang
 * Bhargava Ramisetty
 * Lindsey Zylstra
-
 
 
 ## License
